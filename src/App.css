@@ -7,7 +7,7 @@
 
 .app {
     height: 100%;
-    background-image: paint(randomBackground), url('./images/city.jpg');
+    background-image: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url('./images/img03.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -18,7 +18,7 @@
 
 .card{
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.8;
     width: 40%;
     height: 20%;
     display: flex;
